@@ -5,6 +5,7 @@
     --white-text-color: #f9faf8;
     --secondary-text-color: #e5e7eb;
     --button-background-color: #3882f6;
+    --information-header-text-color: #1f2937;
 }
 
 * {
@@ -81,4 +82,38 @@ img {
 
 #header-media {
     margin-left: auto;
+}
+
+.frames {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frames h2 {
+    color: var(--information-header-text-color);
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+.frames .container .frame {
+    height: 100px;
+    width: 100px;
+    border: 3px solid var(--button-background-color);
+    border-radius: 8px;
+}
+
+.frames .container {
+    margin: 0 15px;
+}
+
+.frames .container .small-text {
+    max-width: 100px;
+    padding: 12px 3px;
+    text-align: center;
+    color: var(--information-header-text-color);
+}
+
+.frames .containers {
+    display: flex;
 }
