@@ -84,6 +84,13 @@ img {
 
 #header-media {
     margin-left: auto;
+    background-color: gray;
+    width: 250px;
+    height: 140px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .frames {
