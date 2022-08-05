@@ -126,7 +126,7 @@ img {
     justify-content: center;
 }
 
-.content {
+.quote .content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,4 +143,33 @@ img {
 .author {
     align-self: flex-end;
     font-style: normal;
+}
+
+.banner {
+    background-color: var(--button-background-color);
+    border-radius: 8px;
+    margin: 80px 120px;
+    padding: 30px;
+    color: var(--secondary-text-color);
+
+    display: flex;
+}
+
+.banner .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white-text-color);
+}
+
+.banner .content {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.banner .btn.sign-up {
+    align-self: flex-end;
+    margin-left: auto;
+    border: 1px solid white;
+    padding: 3px 30px
 }
